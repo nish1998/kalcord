@@ -160,7 +160,7 @@ function lcm(a, b) {
   return a*b / gcd(a, b);
 }
 
-var lcm;
+var lcn;
 var hcf;
 document.getElementById('lcm').onclick=function(){
 
@@ -168,13 +168,13 @@ document.getElementById('lcm').onclick=function(){
 first=document.getElementById('int1').value;
 second=document.getElementById('int2').value;
 
-lcm=lcm(first,second);
+lcn=lcm(first,second);
  
  var table = document.getElementById("myTable");
     var row = table.insertRow(0);
     var cell1 = row.insertCell(0);
-    cell1.innerHTML ="LCM"+" of "+first+" and "+second+" = "+lcm;
-    document.getElementById("output").innerHTML=lcm;
+    cell1.innerHTML ="LCM"+" of "+first+" and "+second+" = "+lcn;
+    document.getElementById("output").innerHTML=lcn;
 };
 
 document.getElementById('hcf').onclick=function(){
